@@ -16,7 +16,7 @@ const LoginScreen = ({navigation}) => {
   });
 
   const continueHandle = () => {
-    navigation.navigate('Chat', {name: state.name});
+    navigation.navigate('Chat', state);
   };
 
   return (
